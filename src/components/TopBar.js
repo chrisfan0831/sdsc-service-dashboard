@@ -1,8 +1,8 @@
 import React from "react"
-import sdsdLogo from "/Users/chrisfan/Documents/Projects/sdsc-sde/src/images/sdsc-logo-red.jpeg"
-import avatar from "/Users/chrisfan/Documents/Projects/sdsc-sde/src/images/avatar.png"
+import sdsdLogo from "../images/sdsc-logo-red.jpeg"
+import avatar from "../images/avatar.png"
 
-export default function NavBar() {
+export default function TopBar() {
     return (
         <nav>
             <div className="nav-left">
