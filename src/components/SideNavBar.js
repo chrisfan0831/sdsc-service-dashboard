@@ -20,11 +20,11 @@ export default function SideNavBar() {
                     <SubMenu title="Home" icon={<TbHome size={20}/>}>
                         <MenuItem>Current Service</MenuItem>
                         <MenuItem>Service History</MenuItem>
-                        <MenuItem>Interests</MenuItem>
+                        <MenuItem>Saved</MenuItem>
                     </SubMenu>
                     <SubMenu title="Explore" icon={<MdOutlineExplore size={20}/>}>
                         <MenuItem>All Services</MenuItem>
-                        <MenuItem>Related Services</MenuItem>
+                        <MenuItem>Recommend Services</MenuItem>
                     </SubMenu>
                     <SubMenu title="Contact" icon={<IoMdContacts size={20}/>}>
                         <MenuItem>Methods</MenuItem>
