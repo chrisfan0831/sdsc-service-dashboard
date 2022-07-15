@@ -4,7 +4,6 @@ import 'react-pro-sidebar/dist/css/styles.css';
 import sdscLogoRed from "../images/sdsc-logo-red.jpeg";
 import {TbDashboard, TbHome} from 'react-icons/tb';
 import {MdOutlineExplore} from "react-icons/md"
-// import {IoMdContacts} from "react-icons/io"
 import {FiSettings, FiHelpCircle} from "react-icons/fi"
 
 export default function SideNavBar() {
@@ -23,7 +22,7 @@ export default function SideNavBar() {
                     </SubMenu>
                     <SubMenu title="Explore" icon={<MdOutlineExplore size={20}/>}>
                         <MenuItem>All Services</MenuItem>
-                        <MenuItem>Recommend Services</MenuItem>
+                        <MenuItem>Recommendations</MenuItem>
                     </SubMenu>
                     <SubMenu title="Help" icon={<FiHelpCircle size={20}/>}>
                         <MenuItem>FAQs</MenuItem>
