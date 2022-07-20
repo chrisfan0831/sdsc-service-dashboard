@@ -49,18 +49,35 @@ Header {
     left: 5px;
 }
 
-.user-identification {
+.profile-brief {
     display: flex;
     margin-right: 15px;
 }
 
-.user-identification > img {
-    border: solid white 2px;
+.profile-brief > img {
+    border: solid #F7F8FC 1px;
+    border-radius: 50px;
 }
 
-.user-identification > img:hover, img:focus{
+.profile-brief > img:hover, img:focus{
+    border: solid black 1px;
+}
+
+.profile-menu {
+    position: absolute;
+    right: 0;
     border: solid black 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: #363740;
+    color: #adadad;
 }
 
+.menu-choice:hover {
+    color: #dde2ff;
+}
 
 
