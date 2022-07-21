@@ -2,7 +2,7 @@ import React from "react"
 import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
 import { SidebarHeader, SidebarFooter, SidebarContent } from 'react-pro-sidebar';
 import 'react-pro-sidebar/dist/css/styles.css';
-import sdscLogoRed from "../images/sdsc-logo-red.jpeg";
+import sdscLogoRed from "../resources/sdsc-logo-red.jpeg";
 import {TbDashboard, TbHome} from 'react-icons/tb';
 import {MdOutlineExplore} from "react-icons/md"
 import {FiSettings, FiHelpCircle} from "react-icons/fi"
@@ -27,7 +27,7 @@ export default function SideNavbar() {
         return (
             <ProSidebar>
                 <SidebarHeader>
-                    <img onClick={logoClick} src={sdscLogoRed} alt="logo" height="50" 
+                    <img onClick={logoClick} className="logo" src={sdscLogoRed} alt="logo" height="50" 
                     style={{margin:"15px", border:"solid #adadad 2px", borderRadius:"12px"}}/>
                 </SidebarHeader>
                 <SidebarContent>
@@ -60,7 +60,7 @@ export default function SideNavbar() {
         return (
             <ProSidebar collapsed="true">
                 <SidebarHeader>
-                    <img onClick={logoClick} src={sdscLogoRed} alt="logo" height="50" 
+                    <img onClick={logoClick} className="logo" src={sdscLogoRed} alt="logo" height="50" 
                     style={{margin:"15px", border:"solid #adadad 1px", borderRadius:"12px"}}/>
                 </SidebarHeader>
                 <SidebarContent>

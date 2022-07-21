@@ -1,6 +1,7 @@
 import React from "react"
-import avatar from "../images/avatar.png"
+import avatar from "../resources/avatar.png"
 import {BiSearch} from "react-icons/bi"
+import "styles/header.css"
 
 export default function Header() {
 

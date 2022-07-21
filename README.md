@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+#Important!
+This development environment is built by "Create React App" (https://create-react-app.dev/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Please ensure you have Node.js and NPM installed on your machine. You can check them by running <code>node -v</code> and <code>npm -v</code> in your command line.
 
-## Available Scripts
+To run the app on you local, navigate to this app's folder in command line and run <code>npm start</code>.
 
-In the project directory, you can run:
+## File Structure:
+* **public**
+  * index.html (root)
+* **src**
+  * **components** 
+    * React components
+  * **styles**
+    * Style sheets for components
+  * **recources**
+    * external components (e.g images) 
+  * **data**
+    * arbitrary data for testing functionalities
+* **App.js:** 'App' component that takes in other compoennets
+* **App.css:** Style sheet for the 'App' component
+* **index.js:** Render the 'App' component to html root
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## File Path:
+The root of path is setted as 'src' for convenience, and every files's path should be relative to the root. 
+* Thus, path from an outer-level file in src (e.g App.js) to other inner-level files (e.g components/Header.js) is <code>./components/Header.js</code>.
+* Path from one inner-level file (e.g components/Header.js) to aother inner-level file (e.g resources/avatar.png) is <code>../resources/avatar.png</code>.
