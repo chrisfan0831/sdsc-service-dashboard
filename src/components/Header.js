@@ -7,7 +7,7 @@ export default function Header() {
 
     const [menu, setMenu] = React.useState("false")
     function profileClick() {
-        if(menu == "false") {
+        if(menu === "false") {
             setMenu("true")
         }
         else{
@@ -16,7 +16,7 @@ export default function Header() {
         console.log(menu)
     }
 
-    if(menu == "true") {
+    if(menu === "true") {
         return (
             <header>
                 <div className="search-bar">

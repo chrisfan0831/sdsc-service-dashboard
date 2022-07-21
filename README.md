@@ -1,9 +1,19 @@
-# Important!
-This development environment is built by "Create React App" (https://create-react-app.dev/)
+# Read me!
+This development environment is built by "Create React App".
+Website: https://create-react-app.dev/
 
-Please ensure you have Node.js and NPM installed on your machine. You can check them by running <code>node -v</code> and <code>npm -v</code> in your command line.
+## Basic Environment
+Please ensure you have Node.js and NPM installed on your machine. You can check them by excuting <code>node -v</code> and <code>npm -v</code> in your command line.
 
-To run the app on you local, navigate to this app's folder in command line and run <code>npm start</code>.
+## Outside Modules
+React Pro Sidebar:
+<code>npm install react-pro-sidebar</code>
+React Icons;
+<code>npm install react-icons --save</code>
+
+## Run the app
+When you're done with all the environment and modules, you can run the app on you local by navigating to this app's folder and excute <code>npm start</code>.
+
 
 ## File Structure:
 * **public**

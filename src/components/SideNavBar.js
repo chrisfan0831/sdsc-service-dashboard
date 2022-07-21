@@ -11,7 +11,7 @@ export default function SideNavbar() {
 
     const [collapsed, setCollapsed] = React.useState("true")
     function logoClick() {
-        if(collapsed=="false") {
+        if(collapsed === "false") {
             setTimeout(()=>{
                 setCollapsed("true")
             }, 20)   
@@ -23,7 +23,7 @@ export default function SideNavbar() {
         }
     }
     
-    if(collapsed == "false") {
+    if(collapsed === "false") {
         return (
             <ProSidebar>
                 <SidebarHeader>
